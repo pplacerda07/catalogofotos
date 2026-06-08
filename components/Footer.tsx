@@ -13,9 +13,6 @@ export default function Footer() {
           <a href="#portfolio" className="btn-ghost">
             Portfólio
           </a>
-          <a href="#parceiros" className="btn-ghost">
-            Parceiros
-          </a>
           <a href="#contato" className="btn-ghost">
             Contato
           </a>

@@ -16,14 +16,6 @@ export default function Footer() {
           <a href="#contato" className="btn-ghost">
             Contato
           </a>
-          <a
-            href={contact.instagram}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn-ghost"
-          >
-            Instagram
-          </a>
         </nav>
       </div>
 

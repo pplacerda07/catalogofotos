@@ -23,6 +23,12 @@ export type Photo = {
   span?: "normal" | "wide" | "tall";
 };
 
+export type Partner = {
+  name: string;
+  /** caminho do logo quando você tiver; por ora usamos só o nome estilizado */
+  logo?: string;
+};
+
 // Filtros das galerias (baseados no trabalho real)
 export const categories: Category[] = [
   { id: "all", label: "Todos" },
@@ -281,6 +287,15 @@ export const photos: Photo[] = [
     category: "paisagem",
     title: "Parque",
   },
+];
+
+export const partners: Partner[] = [
+  { name: "Absoluta Distribuidora" },
+  { name: "Casa Alvares" },
+  { name: "Vinho As Duas" },
+  { name: "Malolo Quiosque" },
+  { name: "Tecdisa Informática" },
+  { name: "Foco Automóveis" },
 ];
 
 export const contact = {

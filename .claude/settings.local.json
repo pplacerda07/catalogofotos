@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(curl -s -o /dev/null -w '%{http_code}' http://localhost:3000)",
+      "Bash(echo \"page: $\\(curl -s -o /dev/null -w '%{http_code}' http://localhost:3000\\)\")",
+      "Bash(curl -s -o /dev/null -w '%{http_code}' 'http://localhost:3000/portfolio/vinho-01.jpeg')",
+      "Bash(echo \"vinho-01: $\\(curl -s -o /dev/null -w '%{http_code}' 'http://localhost:3000/portfolio/vinho-01.jpeg'\\)\")"
+    ]
+  }
+}
